@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    
+}
+.menu-names{
+    font-size: 28px;
+    line-height: 0;
+}
+.header{
+    background-image: url("img/burger.png");
+    background-size: cover;
+    padding: 40px;
+}
+.container{
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.menu-ingredients{
+    color: #8B8B8B;
+    font-size: 16px;
+}
+
+.menu-price{
+    font-size: 20px;
+    line-height: 0;
+}
+.menu-products{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D2D2D2;
+    
+    
+}
+
+.menu-buttun{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin-left: auto;
+   
+    
+}
+
+.menu-img{
+    font-size: 78.72px;
+}
+
+
+.chekout-list{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+   
+    
+}
+
+
+
+.chekout-list-left{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.rm-btn{
+    background-color: white;
+    border: none;
+    color: #BBBBBB;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+.total-price-section{
+    border-top: 2px solid #393333;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.purches-btn{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #16DB99;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.cheackout-titel{
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.form-section {
+    display: none;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    right: 0;
+}
+
+
+.form {
+    background: #ffffff;
+    padding: 24px 30px;
+    max-width: 524px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3.89px;
+    box-shadow: 8px 8px 255px #00000080;
+}
+.form-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 23px 0 46px;
+}
+.form input {
+    padding: 15px 10px;
+    margin-bottom: 24px;
+    border: 1.3px solid #757575;
+    border-radius: 3.89px;
+    outline: none;
+}
+.form input:last-of-type {
+    margin-bottom: 46px;
+}
+
+.pay-btn {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 25px;
+    color: #ffffff;
+    background: #16db99;
+    border: none;
+    border-radius: 3px;
+}
